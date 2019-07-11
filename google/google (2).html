@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Niconne" rel="stylesheet">
+
+	<title>google</title>
+
+	<style type="text/css">
+	*{
+		box-sizing: border-box;
+	}
+		.g{
+			color:rgba(0, 0, 300, 0.7);
+		}
+		.o{
+			color:rgba(255, 0, 0, 0.8);
+		}
+		.oo{
+			color: rgba(240, 210, 0, 0.7);
+		}
+		.l{
+			color: green;
+		}
+		.e{
+			color:rgba(255, 0, 0, 0.8); 
+		}
+		.logo{
+			font-size: 90px;
+			text-align: center;
+			margin-top: 10%;
+			margin-bottom: 30px;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+				.inpu:hover{
+					box-shadow: 3px 1px 5px rgb(220, 220, 220);
+
+				}
+		button {
+			border: none;
+			background: rgb(240, 240, 235);
+			padding: 10px;
+			border-radius: 5px;
+			margin-bottom: 30px;
+		}
+		button a{
+			color: rgb(100, 100, 100);
+			text-decoration: none;
+			font-size: 14px;
+		}
+		button a:hover{
+			text-decoration: none;
+			color: black;
+		}
+		button:hover{
+			border: 1px solid rgb(220, 220, 220);
+		}
+		#search {
+			margin-right: 10px;
+			margin-left: 550px;
+				}
+			
+			.goog a{
+				display: inline-flex;
+				text-decoration: none;
+				color: blue;
+				margin-left: 5px;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			.goog{
+				text-align: center;
+				margin-top: -10px;
+			}
+			header a{
+				text-decoration: none;
+				color: black;
+			}
+			header a:hover{
+				color: rgb(100, 100, 100);
+			}
+			footer p{
+				background-color: rgb(240, 240, 235);
+				width: 100%;
+				padding: 15px;
+			}
+			footer{
+				margin-top: 60px;
+				margin-bottom: -30px;
+			}
+			#nig{
+				margin-bottom: -16px;
+				border-bottom:  1px solid rgb(220, 220, 220);
+			}
+			footer #bus{
+				margin-left: 20px;
+			}
+			footer #pri{
+				margin-left: 750px;
+				display: inline;
+			}
+			footer a{
+				color: rgb(100, 100, 100);
+				text-decoration: none;
+			}
+			footer a:hover{
+				color: rgb(100, 100, 100);
+				text-decoration: underline;
+			}
+			#nig{
+				color: rgb(100, 100, 100);
+			}
+			.inp-container{
+				position: relative;
+			}
+				.inpu{
+					width: 45%;
+					margin-left: 380px;
+					padding: 15px;
+					border-radius: 50px;
+					border: 1px solid rgb(220, 220, 220);
+					margin-bottom: 30px;
+				}
+				.inpu:focus{
+					outline: none;
+					box-shadow: 3px 1px 5px rgb(220, 220, 220);
+
+				}
+				.inp-container img{
+					width:1%;
+					position: absolute;
+					background-repeat: no-repeat;
+					right: 380px;
+					bottom: 45px;
+					cursor: pointer;
+					max-width: 100%;
+				}
+				.head{
+					display: grid;
+					grid-template-columns: 88% 4% 4% 4%;
+					width: 100%;
+				}
+				@media screen and (min-width:1060px){
+					.logo{
+						margin-left: 270px;
+						margin-top: 150px;
+					}
+					.inpu{
+						margin-right: 400px;
+					}
+					button{
+						margin-right: 400px;
+					}
+					.goog{
+				margin-left: 200px;
+						width: 100%;
+					}
+				}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="head">
+			<div class="space"></div>
+		<div class="gmail">
+<a href="#"><p>Gmail</p></a>
+</div>
+<div class="image">
+<a href="#"><p>Images</p></a>
+</div>
+<div class="moyy">
+<img src="Images/moyy.jpg" style="width: 40px; height: 40px; border-radius: 100px; margin-top: 5px;" title="Google account:moyinoluwa hunsa (moyinoluwa.hunsa@gmail.com)">
+</div>
+</div>
+</header>
+<main>
+<div class="logo">
+	<span class="g">G</span><span class="o">o</span><span class="oo">o</span><span class="g">g</span><span class="l">l</span><span class="e">e</span>
+</div>
+<div class="inp-container">
+<form>
+		<input type="text" name="text" title="search" class="inpu">
+		<img src="Images/goog.png">
+</form>
+</div>
+<button type="text" id="search">
+	<a href="#"> Google Search</a>
+</button>
+ <button type="text" id="Lucky">
+<a href="#"> I'm Feeling Lucky</a>
+</button>
+<p class="goog">	Google Offered in:
+<a href="#"> Hausa</a>
+<a href="#">Igbo</a>
+<a href="#">Ede Yoruba</a>
+ <a href="#">Nigerian Pidgin</a>
+</p>
+</main>
+<footer>
+	<p id="nig"> Nigeria</p>
+	<p><a href="#">Advertising<span id="bus">Business </span><span id="bus">About</span> <span id="bus">How Search works</span> 
+	<span id="pri">Privacy</span>	<span id="bus">Terms</span> <span id="bus">Setting</span></a></p>
+</footer>
+</body>
+</html>
